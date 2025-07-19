@@ -1,0 +1,67 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#hi{
+    color: white;
+    height: 8%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 1%;
+    border-style: solid;
+    border-width: 2px;
+    background-color: #333333;
+
+}
+#main{
+    background-color: aquamarine;
+    height: 92%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.shape{
+    height: 200px;
+    width: 200px;
+    border: 3px solid black;
+    margin-left: 10px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+#square:hover{
+    background-color: #FFDAB9;
+}
+#diamond:hover{
+    background-color: #FFD700;
+}
+#circle:hover{
+    background-color: #36454F;
+}
+#diamond{
+    margin-top: 52px;
+    rotate: 45deg;
+}
+#circle{
+    border-radius: 50%;
+}
+#diamond h1{
+    rotate: -45deg;
+}
+#ki1:hover{
+    color: #8E4585;
+}
+#ki2:hover{
+    color: #6A5ACD;
+}
+#ki3:hover{
+    color: #E97451;
+}
